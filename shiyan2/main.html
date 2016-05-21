@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Welcome to book seller</title>
+<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<h1>You are welcome</h1>
+<form action="main.php" method="post">
+	<input type="text" name="name" placeholder="please input your name" />	<br />
+	<input type="text" name="address" placeholder="please input your address" /> <br />
+	<input type="text" name="zip" placeholder="please input your zip" /> <br />
+<h3>please fill in the quantity field of the following form</h3>
+<table border="1px">
+	<tr class="color">
+		<th>book</th><td>publisher</td><td>price</td><td>quantity</td>
+	</tr>
+	<tr>
+		<th>Web technology</th><td>Springer press</td><td>$5.0</td><td><input type="text" name="q1" /></td>
+	</tr>
+	<tr>
+	    <th>mathematics</th><td>ACM press</td><td>$6.2</td><td><input type="text" name="q2" /></td>
+	</tr>
+	<tr>
+		<th>principle of OS</th><td>Science press</td><td>$10</td><td><input type="text" name="q3" /></td>
+	</tr>
+	<tr>
+		<th>Theory of matrix</th><td>High education press</td><td>$7.8</td><td><input type="text" name="q4" /></td>
+	</tr>
+</table>
+<h3>payment method</h3>
+<input type="radio" name="pay" value="cash" checked="checked" />cash
+<input type="radio" name="pay" value="cheque" />cheque
+<input type="radio" name="pay" value="credit card" />credit card<br />
+<div>
+	<h3>查询信息</h3>
+	<input type="text" name="select" placeholder="“please input customer name"/>
+</div>
+<div class="down">
+    <input type="submit" />
+    <input type="reset" />
+</div>
+</form>	
+</body>
+</html>

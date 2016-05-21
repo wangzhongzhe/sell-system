@@ -1,0 +1,4 @@
+'s data:
+ has bought 0 books
+ paid $0
+paid by cash
